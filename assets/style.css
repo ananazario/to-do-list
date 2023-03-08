@@ -1,0 +1,44 @@
+html {
+    background: linear-gradient(177.52deg, #23A5D9 2.11%, #05DBF2 81.34%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+    font-family: monospace;
+}
+
+h2, footer {
+    font-family: monospace;
+}
+
+button {
+    border: none;
+    margin: 0 0 6px 15px;
+}
+
+#form-itens {
+    display: flex;
+    align-items: center;
+}
+
+.itens-comprados {
+    text-decoration: line-through;
+}
+
+.borda-lista {
+    border-bottom: solid 2px rgb(0, 0, 0);
+}
+
+input:disabled {
+    border: none;
+    background: none;
+    color: black;
+}
+
+input {
+    border: none;
+    background: none;
+    color: black;
+}
+
