@@ -68,4 +68,14 @@ function mostrarItem() {
             mostrarItem()
         })
     })
+
+    const deletarObjetos = document.querySelectorAll(".deletar")
+    
+    deletarObjetos.forEach((input) => {
+        input.addEventListener('click', (evento) => {
+            valorDoElemento = evento.target.parentElement.parentElement.getAttribute('data-value');
+            listaDeElementos.splice(valorDoElemento, 1)
+            mostrarItem()
+        })
+    })
 }
